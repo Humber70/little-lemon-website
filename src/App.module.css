@@ -1,0 +1,25 @@
+@import './styles/index.css';
+
+
+.appContainer {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  font-family: 'Karla';
+  font-size: 18px;
+  
+  /* responsive desktop */
+  @media (min-width: 768px) {
+    /* main {
+      background-color: lightblue;
+    } */
+  }
+}
+
+
+
+.sectionMain {
+  min-height: 100dvh;
+  background-color: #ffffff;
+}
+

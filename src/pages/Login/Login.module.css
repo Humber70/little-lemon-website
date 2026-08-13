@@ -1,0 +1,63 @@
+.contentLogin {
+  width: 450px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "labelsRegister labelsSign"
+                        "inputs inputs";
+  min-height: 20vh;
+  padding: 2rem;
+
+  h1 {
+    font-weight: 800;
+    color: #2b4b3c;
+  }
+
+  label {
+    cursor: pointer;
+  }
+  
+  .registerInput, .loginInput {
+    display: none;
+  }
+  
+  .tabRegister, .tabLogin {
+    line-height: 3rem;
+    padding-left: 3px;
+    text-align: center;
+    border-radius: .2rem;
+    color: black;
+    font-weight: 700;
+  }
+
+  .tabRegister {
+    grid-area: labelsRegister;
+  }
+  .tabLogin {
+    grid-area: labelsSign;
+  }
+
+
+}
+
+.sectionRegister, .sectionSign {
+  grid-area: inputs;
+  display: none;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.registerInput:checked ~ .tabRegister, .loginInput:checked ~ .tabLogin{
+  color: white;
+  font-weight: bold;
+  background-color: #4c6d5dcb;
+  border-bottom: .3rem solid #2b4b3c;
+}
+
+.registerInput:checked ~ .sectionRegister {
+  display: flex;
+}
+.loginInput:checked ~ .sectionSign {
+  display: flex;
+}

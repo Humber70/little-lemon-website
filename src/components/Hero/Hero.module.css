@@ -1,0 +1,67 @@
+.hero {
+  width: 100%;
+  background-color: #495e57;
+}
+
+.contentHero {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2.5rem .6rem;
+
+  display: flex;
+  align-items: center;
+
+  h1, h2 {
+    font-family: 'Markazi';
+    margin: 0;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    color: #f4ce14;
+  }
+  
+  h2 {
+    color: #edefee;
+    font-size: 2.5rem;
+    line-height: .1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin: 0;
+    padding: 1rem 0 2rem 0;
+    width: 80%;
+    text-align: top;
+    /* padding-right: 1rem; */
+    color: #edefee;
+    font-weight: 400;
+  }
+}
+
+.linkToReserve {
+  display: inline-block;
+  padding: 0 1rem;
+  line-height: 2.5rem;
+
+  color: #333333;
+  text-decoration: none;
+  font-weight: 700;
+
+  border-radius: 1rem;
+  background-color: #f4ce14;
+
+  align-self: flex-end;
+}
+
+/* dimensions taken from figma - prototype */
+
+.imageHero {
+  width: 147px;
+  height: 152px;
+  position: relative;
+  top: 2rem;
+  border-radius: 16px;
+}

@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Greek Salad",
+      "description": "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and remary croutons.",
+      "price": "12.99",
+      "image": "/images/greek-salad.webp",
+      "isSpecial": true,
+      "quanty": 0,
+      "category": "launch"
+    },
+    {
+      "id": 2,
+      "title": "Bruschetta",
+      "description": "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
+      "price": "5.99",
+      "image": "/images/bruchetta.webp",
+      "isSpecial": true,
+      "quanty": 0,
+      "category": "launch"
+    },
+    {
+      "id": 3,
+      "title": "Lemon Dessert",
+      "description": "This comes straight from grabdna's recipe book, every last ingredient has been sourced and is as authentic as can be imagined",
+      "price": "5.00",
+      "image": "/images/lemon-dessert.webp",
+      "isSpecial": true,
+      "quanty": 0,
+      "category": "dessert"
+    },
+    {
+      "id": 4,
+      "title": "Grilled Fish",
+      "description": "Our Grilled Fish is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
+      "price": "12.99",
+      "image": "/images/grilled-fish.webp",
+      "isSpecial": false,
+      "quanty": 0,
+      "category": "mains"
+    },
+    {
+      "id": 5,
+      "title": "Pasta",
+      "description": "This comes straight from grabdna's recipe book, every last ingredient has been sourced and is as authentic as can be imagined",
+      "price": "12.99",
+      "image": "/images/pasta.webp",
+      "isSpecial": false, 
+      "quanty": 0,
+      "category": "launch"
+    }
+  ]
+}

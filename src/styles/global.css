@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Karla';
+  src: url('/src/assets/fonts/Karla-VariableFont_wght.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Markazi';
+  src: url('/src/assets/fonts/MarkaziText-VariableFont_wght.ttf');
+  font-display: swap;
+}
+
+:root {
+
+  /*primary colors*/
+
+}
