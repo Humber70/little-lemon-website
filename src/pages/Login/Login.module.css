@@ -45,6 +45,21 @@
   display: none;
   min-height: 100vh;
   flex-direction: column;
+
+  input {
+    width: 100%;
+    padding: .8rem;
+    border-radius: .2rem;
+    border: none;
+    font-weight: 800;
+    color: #1a2e25;
+    border: 1px solid #b2c2bb;
+  }
+
+  label {
+    color: #2b4b3c;
+    font-weight: 800;
+  }
 }
 
 
