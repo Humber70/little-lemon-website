@@ -28,8 +28,6 @@ export const CartProvider = ({ children }) => {
     
   }
 
-  console.log(cart)
-
   const removeProductCart = (product) => setCart(prevCart => prevCart.filter(items => items.id !== product.id))
   
   const clearProdcutCart = () => setCart([])
