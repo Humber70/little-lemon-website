@@ -4,6 +4,8 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/little-lemon-website/',
+  
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
@@ -15,5 +17,4 @@ export default defineConfig({
     }
   },
 
-  base: '/little-lemon-website/'
 })
